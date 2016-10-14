@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    tools:context="ua.com.vendetta8247.testproject.VKPostReader">
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/VKPostFullImage"
+        android:layout_height="wrap_content" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:id="@+id/VKPostFullText"
+    android:layout_margin="15dp"
+    android:layout_height="match_parent"
+    android:textSize="11pt"/>
+</ScrollView>
+
+
+</FrameLayout>
